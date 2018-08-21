@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/ic_homepage"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@mipmap/ic_history"
+        android:title="已参审" />
+
+    <item
+        android:id="@+id/navigation_message"
+        android:icon="@mipmap/ic_message"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_function"
+        android:icon="@mipmap/ic_function"
+        android:title="@string/title_notifications" />
+
+
+</menu>

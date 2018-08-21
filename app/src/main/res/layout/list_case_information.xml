@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/text_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:text="序号" />
+
+    <View
+        android:layout_width="1.5dp"
+        android:layout_height="match_parent"
+        android:background="#B4B3B3"/>
+
+    <TextView
+        android:id="@+id/text_case_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="案号"
+        android:singleLine="false"
+        android:ellipsize="none"
+        android:maxLines="2"/>
+
+    <View
+        android:layout_width="1.5dp"
+        android:layout_height="match_parent"
+        android:background="#B4B3B3"/>
+
+    <TextView
+        android:id="@+id/text_ktsj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="开庭时间"
+        android:singleLine="false"
+        android:ellipsize="none"
+        android:maxLines="2"
+        />
+
+    <View
+        android:layout_width="1.5dp"
+        android:layout_height="match_parent"
+        android:background="#B4B3B3"/>
+
+    <TextView
+        android:id="@+id/text_ktdd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="开庭地点"
+        android:singleLine="false"
+        android:ellipsize="none"
+        android:maxLines="2"/>
+
+
+</LinearLayout>
